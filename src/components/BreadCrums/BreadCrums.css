@@ -1,0 +1,56 @@
+.breadcrums {
+    margin: 50px auto 30px;
+    width: 80%;
+    font-size: 16px;
+}
+
+.breadcrums>p,
+.breadcrums>p>span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.breadcrums>p>span>span {
+    cursor: pointer;
+}
+
+.breadcrums>p>span>img {
+    margin-top: 5px;
+    height: 13px;
+}
+
+
+@media (max-width:1200px) {
+    .breadcrums {
+        width: 85%;
+    }
+}
+
+@media (max-width:960px) {
+    .breadcrums {
+        width: 90%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:750px) {
+    .breadcrums {
+        width: 95%;
+        font-size: 13.6px;
+    }
+
+    .breadcrums>p {
+        gap: 8px;
+    }
+}
+
+@media (max-width:500px) {
+    .breadcrums {
+        font-size: 11px;
+    }
+
+    .breadcrums>p {
+        gap: 6px;
+    }
+}

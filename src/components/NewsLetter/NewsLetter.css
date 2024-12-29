@@ -1,0 +1,127 @@
+.newLetter {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 80px 100px;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    margin-bottom: 60px;
+}
+
+.newLetter>h1,
+.newLetter>p {
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 600;
+    color: #454545;
+}
+
+.newLetter>p {
+    font-size: 20px;
+}
+
+.newLetter-form {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 80px;
+    border: .5px solid #404040;
+    overflow: hidden;
+}
+
+.newLetter-form>input {
+    border: none;
+    outline: none;
+    margin-left: 30px;
+    width: 70%;
+    color: #616161;
+    font-size: 16px;
+}
+
+.newLetter-form>button {
+    width: 30%;
+    border: none;
+    outline: none;
+    height: inherit;
+    border-radius: 80px;
+    background-color: #ff4141;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (max-width:1200px) {
+    .newLetter>h1 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width:1080px) {
+    .newLetter>h1 {
+        font-size: 35px;
+    }
+
+    .newLetter>p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:950px) {
+    .newLetter {
+        padding: 50px;
+        width: 90%;
+    }
+
+    .newLetter-form {
+        width: 90%;
+    }
+
+    .newLetter>h1 {
+        font-size: 30px;
+    }
+
+    .newLetter>p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:720px) {
+    .newLetter {
+        padding: 40px 25px;
+    }
+}
+
+@media (max-width:580px) {
+    .newLetter {
+        padding: 40px 20px;
+        width: 98%;
+    }
+
+    .newLetter>h1 {
+        font-size: 26px;
+    }
+
+    .newLetter>p {
+        font-size: 13px;
+    }
+
+    .newLetter-form {
+        height: 50px;
+        width: 100%;
+    }
+
+    .newLetter-form>button {
+        font-size: 15px;
+        width: 40%;
+    }
+
+    .newLetter-form>input {
+        width: 60%;
+    }
+}

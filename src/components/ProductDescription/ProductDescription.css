@@ -1,0 +1,37 @@
+.productdescription {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 85%;
+    margin: 50px auto;
+}
+
+.description-navigator {
+    display: flex;
+    gap: 5px;
+}
+
+.description-navigator>p {
+    width: 200px;
+    height: 60px;
+    border: 1px solid #a2a0a0;
+    border-radius: 3px;
+    display: grid;
+    font-size: 17px;
+    place-items: center;
+}
+
+.description-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    padding-bottom: 58px;
+    border: 1px solid #a2a0a0;
+}
+
+@media (max-width:600px) {
+    .description-box {
+        padding: 30px;
+    }
+}
